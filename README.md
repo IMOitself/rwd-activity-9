@@ -10,5 +10,5 @@
 | 9    | [ACTIVITY 9](https://github.com/IMOitself/rwd-activity-9) |
 
 ## [preview website](https://htmlpreview.github.io/?https://github.com/IMOitself/rwd-activity-9/blob/master/laverdad.html)
-![mobile view](Screenshot_1-10-2025_205641_.jpeg)
-![desktop view](Screenshot_1-10-2025_205742_.jpeg)
+![mobile view](desktop.jpeg)
+![desktop view](mobile.jpeg)
