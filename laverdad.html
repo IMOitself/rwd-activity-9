@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Basics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body class="p-0 m-0 align-items-center h-100" style="font-family: 'Trebuchet MS', sans-serif;">
+    <div class="position-absolute z-1 d-flex justify-content-center align-items-center h-100 w-100" style="background-color: #FFF5F4;">
+      <img src="bsis_bg.png" class="w-50 h-100" style="object-fit: contain;">
+    </div>
+    <div class="position-absolute z-2 d-flex justify-content-between align-items-end h-100 w-100">
+      <img src="left.png" class="img-fluid w-25">
+      <img src="right.png" class="img-fluid w-25">
+    </div>
+      
+    <nav class="navbar navbar-expand-sm navbar-light z-3">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="lvcc_logo.png" alt="Logo" class="me-2" width="50">
+        <span class="fs-2 fw-bold font-serif">La Verdad</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">My Courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Notifications</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
